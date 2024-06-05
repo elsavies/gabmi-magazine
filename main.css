@@ -1,0 +1,537 @@
+/* latin */
+@font-face {
+  font-family: 'Carter One';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Carter One'), local('CarterOne'), url(https://fonts.gstatic.com/s/carterone/v10/q5uCsoe5IOB2-pXv9UcNExN8hK5SAMo.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face{
+    font-family:"Dosis-Regular";
+    src: url('https://gaemi1743.blob.core.windows.net/fonts/Dosis-Regular.otf')
+}
+
+@font-face{
+    font-family:"Dosis-ExtraLight";
+    src: url('https://gaemi1743.blob.core.windows.net/fonts/Dosis-ExtraLight.otf')
+}
+
+@font-face{
+    font-family:"Dosis-Light";
+    src: url('https://gaemi1743.blob.core.windows.net/fonts/Dosis-Light.otf')
+}
+
+@font-face{
+    font-family:"Dosis-Medium";
+    src: url('https://gaemi1743.blob.core.windows.net/fonts/Dosis-Medium.otf')
+}
+
+@font-face{
+    font-family:"Dosis-SemiBold";
+    src: url('https://gaemi1743.blob.core.windows.net/fonts/Dosis-SemiBold.otf')
+}
+
+@font-face{
+    font-family:"Dosis-Bold";
+    src: url('https://gaemi1743.blob.core.windows.net/fonts/Dosis-Bold.otf')
+}
+
+@font-face{
+    font-family:"Dosis-ExtraBold";
+    src: url('https://gaemi1743.blob.core.windows.net/fonts/Dosis-ExtraBold.otf')
+}
+
+::selection { background: transparent; }
+::-moz-selection { background: transparent; }
+
+*{
+    font-family:"Dosis-Regular";
+    -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+   -khtml-user-select: none; /* Konqueror HTML */
+     -moz-user-select: none; /* Firefox */
+      -ms-user-select: none; /* Internet Explorer/Edge */
+          user-select: none; /* Non-prefixed version, currently
+                                supported by Chrome and Opera */
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+body{
+  padding:0;
+  margin:0;
+}
+
+h1, h3{
+    text-align:center;
+    font-weight:bold;
+}
+
+h2, h3, h4, .gabmi_title,.quote, .content-block p a{
+    color:#67d5e6;
+}
+
+.gabmi_title{
+    font-family: "Dosis-SemiBold"
+}
+
+h3, h4{
+    font-size:.9em;
+}
+
+img{ width:100%; }
+
+p{
+    text-align:center;
+}
+
+.clickable{
+  cursor:pointer;
+}
+
+.hidden{
+  display:none;
+}
+
+.paragraph p{
+	font-family:Georgia, serif;
+}
+
+.left-pharagraph{
+  text-align:left;
+}
+
+p.dayColor,.paragraph.dayColor{
+	color:#58546d;
+}
+
+p.nightColor,.paragraph.nightColor{
+	color:#ffffff;
+}
+
+iframe{ width:100%; }
+
+.container{
+    padding:0 10px 0 10px;
+}
+
+.quote{ text-align:right; }
+
+.content-block{
+    background:#ffffff;
+    margin:10px 0 10px 0;
+    border-radius:8px;
+    padding:10px;
+}
+
+.content-block p{ color:#444444; padding:0; margin:0; }
+
+.content-block p a{ text-decoration:none; }
+
+.bottom-spacing{ padding:25px 0 25px 0; }
+
+.textbody{ padding:10px 0 10px 0; }
+
+.title-left{
+  padding:0;
+  margin:0;
+  text-align:left;
+}
+
+.title-center{
+  padding:0;
+  margin:auto;  
+}
+
+.no-space{
+  margin:0;
+  padding:0;
+}
+
+.sn-container{
+	max-width:250px;
+	margin:0 auto;
+}
+
+.sn-container >div{
+	padding:10px;
+}
+
+#img-pre-season{
+    min-height:50px;
+}
+
+.more-wrapper .more-content{
+  display:none;
+}
+
+.more-wrapper .lnk-more{
+  text-align:right;
+  display:block;
+  margin:10px 0px;
+  text-decoration: underline;
+}
+
+.more-wrapper .lnk-more.dayColor{
+    color:#8D8D8D;
+}
+
+.more-wrapper .lnk-more.nightColor{
+    color:#ffffff;
+}
+
+/**Pre-season area*/
+
+#preseason-container{
+    padding:10px;
+}
+
+#preseason-container h2{
+    color:#07D2ED;
+    padding:0;
+    margin:0;
+    font-size:1.1em;
+    font-family:"Dosis-SemiBold";
+}
+
+#preseason-container p{
+    text-align: justify;
+    text-justify: inter-word;
+    padding-top:0px;
+    margin-top:0px;
+}
+
+.text-justify{
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.gabmi-preseason-header h1,.gabmi-preseason-header h2,.gabmi-preseason-header h3{
+    padding:0px;
+    margin:0px;
+}
+
+.gabmi-preseason-header h2{
+    text-align:center;
+    color:#07D2ED;
+    font-size:.8em;
+    font-family:"Dosis-SemiBold";
+}
+
+.gabmi-preseason-header h3{
+    color:#58546d;
+}
+
+#phrase-day-container{
+  padding-top:10px;
+}
+
+#phrase-day-container *{
+  text-align:center;
+  color:#ababab;
+}
+
+#phrase-day-container .text-label{
+  padding:0;
+  margin:0;
+  font-family:"Dosis-SemiBold";
+  font-size:1.3em;
+}
+
+#phrase-day-container .text-source{
+  padding:0;
+  margin:25px 0 0 0;
+}
+
+#phrase-day-container .text-source a{
+  color:#07D2ED;
+  text-decoration: none;
+  font-family:"Dosis-SemiBold";
+}
+
+#phrase-day-container .text-word{
+  padding:0;
+  margin:0;
+  text-transform: uppercase;
+  font-family:"Dosis-SemiBold";
+  font-size: 2.5em;
+  color:#07D2ED;
+}
+
+#phrase-day-container .text-description{
+  font-family:"Dosis-SemiBold";
+  text-transform: capitalize;
+  padding:0 0 5px 0;
+  margin:0 0 5px 0;
+}
+
+#phrase-day-container .text-example, #phrase-day-container .text-example-title{
+  padding:0;
+  margin:0;
+}
+
+#phrase-day-container .text-example-title,#phrase-day-container .text-another-definitions{
+  font-family:"Dosis-Regular";
+  font-weight: normal;
+}
+
+#phrase-day-container .text-example{
+  font-family:"Dosis-SemiBold";
+  text-transform: capitalize;
+}
+
+.space{
+  height:1px;
+  width:100%;
+}
+
+.button-store{
+  padding-top:0;
+  padding-bottom:0;
+  box-shadow: 5px 2px 18px -6px rgba(0,0,0,0.50);
+  -webkit-box-shadow: 5px 2px 18px -6px rgba(0,0,0,0.50);
+  -moz-box-shadow: 5px 2px 18px -6px rgba(0,0,0,0.50);
+}
+
+.button-store .button-store-container{
+  padding:0;
+  max-width: 468px;
+  width:100%;
+  margin:0 auto;
+}
+
+.button-store h3, .button-store h4, .button-store h5{
+  padding:0;
+  margin:0;
+  text-align:left;
+}
+
+.button-store h4,.button-store h5{
+  color:#fff;
+}
+
+.button-store h3{
+  color:#fecb4d;
+}
+
+.button-store h3{
+  font-size:35px;
+  line-height: 35px;
+}
+
+.button-store h4{
+  font-size:30px;
+}
+
+.button-store h5{
+
+}
+
+.button-store, .button-store h3, .button-store h4{
+  font-family: 'Carter One', cursive;
+  font-weight:100;
+}
+
+.button-store h5{
+  font-weight: 900;
+  font-size:20px;
+}
+
+.button-store-container .block-store-button-character{
+  width:50%;
+  height:130px;
+}
+
+.block-store-button-character > img{
+  height:100%;
+  width:auto;
+  margin:0;
+  padding:0;
+  margin-left:20px;
+}
+
+.block-store-button-text{
+  width:50%;
+}
+
+.button-store > div{
+  margin:0;
+  padding:0;
+}
+
+.block-store-column{
+  float:left;
+}
+
+.clearfix{
+  clear:both;
+}
+
+.button-store-style-1{
+  background:#617fc7;
+}
+
+.button-store-style-2{
+  background:#fe6c6d;
+}
+
+.button-store-style-3{
+  background:#07d2ed;
+ }
+
+.button-store-style-4{
+  background:#00e29c;
+}
+
+.button-store-style-5{
+  background:#dc69a2;
+}
+
+/*goodmeter evolved styles*/
+#container-gm-evolved, #container-superpower{
+    padding:10px;
+    display:none;
+}
+
+#container-gm-evolved.day, #container-superpower.day{
+    background:#DCEBF8;
+}
+
+#container-gm-evolved.night, #container-superpower.night{
+  background:#1A2D48;
+}
+
+#bottom-evolved{
+  width:100%;
+  position:absolute;
+  bottom:0px;
+  left:0;
+  margin:0;
+  padding:0;
+}
+
+#bottom-evolved img{
+  width:100%;
+  max-width:500px;
+  margin:0 auto;
+  display:block;
+}
+
+  .profile-image-container{
+    max-width:80px;
+    margin:0 auto;
+    border:1px solid #e4ebef;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    padding:3px;
+  }
+
+  .profile-image-container img{
+    width:100%;
+    max-width:130px;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    margin:0 auto;
+    display:block;
+  }
+
+  #gm-message, #sp-message{
+    max-width:300px;
+    margin:0 auto;
+    margin-top:10px;
+    text-align:center;
+    font-family:"Dosis-Bold";
+  }
+
+  .day #gm-message, .day #sp-message{
+    color:#979797;
+  }
+
+  .night #gm-message, .night #sp-message{
+    color:#ffffff;
+  }
+    #gm-message span, #sp-message span{
+      font-weight:800;
+    }
+
+  #lottie-goodmeter-current-level, #lottie-superpower{
+    position:relative;
+    top:-20px;
+    padding:0;
+    max-width:280px;
+    min-height:280px;
+    margin:0 auto;
+  }
+
+  #lottie-superpower{
+    top:20px;
+  }
+
+  .goodmeter-level{
+    margin-top:-50px;
+    font-weight:800;
+    font-size:20px;
+  }
+
+  .day .goodmeter-level{
+    color:#979797;
+  }
+
+  .night .goodmeter-level{
+    color:#ffffff;
+  }
+/*end: goodmeter evolved styles*/
+
+@media only screen and (min-width:768px) {
+  .button-store h3{
+    font-size:45px;
+    line-height: 45px;
+  }
+
+
+  .block-store-button-character > img{
+    margin-left:50px;
+  }
+}
+
+@media only screen and (max-height: 480px) {
+
+  #lottie-goodmeter-current-level{
+    max-width:250px;
+    min-height:250px;
+  }
+
+  .profile-image-container, .profile-image-container img{
+    max-width:90px;
+  }
+
+  #lottie-superpower{
+    max-width:220px;
+    max-height:220px;
+  }
+
+  .goodmeter-level{
+    margin-top:-50px;
+  }
+
+  #bottom-evolved img{
+    max-width:300px;
+  }
+}
+
+@media only screen and (max-height: 300px) {
+  #lottie-goodmeter-current-level{
+    max-width:90px;
+    min-height:90px;
+  }
+
+  .profile-image-container, .profile-image-container img{
+    max-width:60px;
+  }
+
+  .goodmeter-level{
+    margin-top:-50px;
+  }
+}
